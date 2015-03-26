@@ -1,0 +1,74 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+h1 {
+  font-family: 'Francois One', cursive;
+}
+
+#container {
+  background: url("ricepaper2.png");
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  width: 960px;
+  padding: 16px;
+  overflow: auto;
+  display: block;
+}
+
+aside {
+  float: right;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+aside p {
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+a,
+a:visited {
+  color: rgb(0,102,0);
+}
+
+a:hover {
+  color: rgb(255,128,0);
+}
+
+p#hidden {
+  display: none;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+main section {
+  padding: 12px;
+}
+
+h2 {
+  line-height: 0.5;
+}
+
+p {
+  line-height: 0.5;
+}
+
+footer{
+  text-align: center;
+}
