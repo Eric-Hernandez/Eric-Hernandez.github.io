@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
+html {
+  background: url("../img/suit-mod.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #222;
+}
+
+nav {
+  list-style:none;
+  margin:15px;
+  padding-top:10px;
+  padding-left:0px;
+  padding-bottom:11px;
+  padding-right:188px;
+  text-align:right;
+  float:right;
+}
+
+nav li {
+  display:inline;
+  padding:25px;
+  margin-right:0;
+}
+
+nav li a {
+  display:inline-block;
+  padding:0;
+  width:100px;
+  text-align:center;
+  text-decoration: none;
+  color:#EEE;
+}
+
+header {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 16px;
+}
+
+h1 {
+  font-family: 'Francois One', cursive;
+}
+
+#container {
+  background-color:#FFF;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  width: 960px;
+  padding: 16px;
+  overflow: auto;
+  display: block;
+}
+
+aside {
+  text-align:center;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+aside p {
+  display: inline-block;
+  margin-right: 16px;
+  margin-top: 8px;
+}
+
+#container a {
+  color:#000;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+main section {
+  padding: 12px;
+}
+
+h2 {
+  line-height: 0.5;
+}
+
+p {
+  line-height: 0.5;
+}
+
+footer {
+  color:#FFF;
+  text-align: center;
+}
+
+footer a {
+  color:#FFF;
+}
