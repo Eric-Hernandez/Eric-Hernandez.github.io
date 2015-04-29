@@ -8,6 +8,10 @@
   margin: 0.75in;
 }
 
+#label {
+  display:none;
+}
+
 h1 {
   text-align:center;
   font-size: 24pt;
