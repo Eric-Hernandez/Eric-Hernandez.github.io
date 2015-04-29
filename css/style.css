@@ -30,29 +30,34 @@ nav {
   list-style:none;
   margin:15px;
   padding:0px;
-  text-align:right;
-  float:right;
+  text-align:center;
 }
 
 nav li {
   display:inline;
   padding:25px;
-  margin-right:0;
 }
-
 
 nav a {
   display:inline-block;
   padding:0;
   width:100px;
-  text-align:center;
+  text-align:left;
   text-decoration: none;
   color:#EEE;
 }
 
-p {
+#description p {
   font-size: 20px;
   text-align:center;
+}
+
+#hidden {
+  display:none;
+}
+
+#hidden-icons {
+  display:none;
 }
 
 footer {
@@ -80,6 +85,12 @@ footer li a {
   padding: 16px;
   overflow: auto;
   display: block;
+}
+
+#about header{
+  text-align:center;
+  font-size:24px;
+  line-height:1.5;
 }
 
 #about section{
@@ -120,7 +131,7 @@ img {
 
 #code header {
   text-align:center;
-  font-size:42px;
+  font-size:24px;
 }
 
 

@@ -16,27 +16,32 @@ body {
 nav {
   list-style:none;
   margin:15px;
-  padding-top:7px;
-  padding-left:0px;
-  padding-bottom:10px;
-  padding-right:188px;
-  text-align:right;
-  float:right;
+  padding:0px;
+  padding-top:1px;
+  text-align:center;
 }
 
 nav li {
   display:inline;
   padding:25px;
-  margin-right:0;
 }
 
-nav li a {
+nav a {
   display:inline-block;
   padding:0;
   width:100px;
-  text-align:center;
+  text-align:left;
   text-decoration: none;
   color:#EEE;
+}
+
+#label h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size:48px;
+  font-weight:700;
+  text-align:center;
+  color:#EEE;
+  line-height:2.0;
 }
 
 header {
